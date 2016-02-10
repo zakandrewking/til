@@ -1,6 +1,6 @@
 # Swap words in Emacs
 
-I wind up swapping the order or function arguments all the time (usually because
+I wind up swapping the order of function arguments all the time (usually because
 I've forgotten the correct order for some kind of mapping function). For
 example, I just used the lodash function `mapValues` incorrectly:
 
@@ -14,7 +14,7 @@ Typically, I will have to laboriously replace `key` with `val` and `val` with
 out, if my cursor is here:
 
 ```JavaScript
-mapValues(attrs, (key, [X]val) => sel.attr(key, val))))
+mapValues(attrs, (key, [v]al) => sel.attr(key, val))))
 ```
 
 and I press `M-t`, I get this:
